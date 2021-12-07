@@ -1,0 +1,5 @@
+{
+  "var": "foo",
+  "test": "{% if test %}{{ test }}{% else %}{{ var }}{% endif %}",
+  "permalink": "{{ test }}/{{ page.fileSlug }}/"
+}
